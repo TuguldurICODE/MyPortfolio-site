@@ -1,16 +1,16 @@
-import './App.css'
+import './styles/App.css'
+import Navbar from './components/Navbar'
+import About from './sections/About';
 
 
 function App() {
-
-
   return (
-    <>
-      <h1 className="text-3xl font-bold text-gray-500 text-center">
-        Haildai juu jamdaaa dunduuuuuu haildai jaaa yu
-      </h1>
-    </>
-  )
+    <div className="text-white">
+      <Navbar />
+      <About/>
+    </div>
+  );
 }
 
-export default App
+export default App;
+
